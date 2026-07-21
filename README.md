@@ -7,7 +7,6 @@ A lightweight Windows native utility that queries and displays Code Integrity (C
 - **CI Options Inspection** — Polls `NtQuerySystemInformation(SystemCodeIntegrityInformation)` and decodes every CI option flag (HVCI, KMCI, UMCI, WHQL enforcement, ELAM, VBS, flight build, etc.).
 - **Diagnostics Tab** — Shows OS version (via `RtlGetVersion` — bypasses the `GetVersionEx` app-compat shim), Secure Boot status, Hypervisor presence, and Virtualization-Based Security (VBS) state.
 - **Registry Fallback** — Secure Boot falls back to `HKLM\SYSTEM\CurrentControlSet\Control\SecureBoot\State` when the NT API fails.
-- **Accurate OS Version** — Reads the build revision from `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion` for the full build string (e.g. `22631.4831`).
 
 ## Requirements
 
