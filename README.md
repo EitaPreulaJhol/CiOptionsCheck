@@ -10,7 +10,7 @@ A lightweight Windows native utility that queries and displays Code Integrity (C
 
 ## Requirements
 
-- Windows 10 / 11 (or Windows 8+ with appropriate CI features).
+- Windows 10 / 11.
 - Microsoft Visual C++ compiler (MSVC) with Windows SDK (currently using MSVC v140, Windows SDK 10.0.22621.0).
 
 ## Internals
